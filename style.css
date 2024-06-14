@@ -1,0 +1,50 @@
+*{
+  font-family: monospace;  
+}
+
+h1,h3{
+    color:#b92b27;
+}
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: red;
+    color: white;
+}
+
+.upvote{
+    background-color:bisque ;
+    color: purple;
+}
+
+p a{
+    color: green;
+    background-color: aqua;
+}
+
+nav ul li a{
+    color: hotpink;
+}
+
+p + h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: aquamarine;
+    color: blueviolet;
+}
+
+div > input{
+    background-color: lawngreen;
+}
+
+input[type="text"]{
+    color:red;
+}
+
+input[type="password"]{
+    color: brown;
+}
