@@ -48,3 +48,42 @@ input[type="text"]{
 input[type="password"]{
     color: brown;
 }
+
+button:hover{
+    background-color: steelblue;
+    color: white;
+}
+
+h3:hover{
+   text-decoration: overline;
+}
+
+button:active{
+    background-color: hotpink;
+}
+
+p:active{
+    font-weight: bold;
+    color: brown;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n) {
+    background-color: yellow;
+}
+
+h1::first-letter {
+    color: green;
+}
+
+p::first-line{
+    color: purple;
+}
+
+p::selection{
+    background-color: yellow;
+}
